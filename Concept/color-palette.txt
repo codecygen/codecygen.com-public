@@ -1,0 +1,10 @@
+#fbfcfe
+#e5eafa
+#bac0f2
+Parenthesis changed to #EB8883 (#eba7a4)
+#603fca
+
+
+body {
+  background-color: #FAFAFA
+}

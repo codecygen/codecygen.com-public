@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- SEO -->
+  <meta name="Web Designer" content="For web design, web development, landing page, website needs.">
+
+  <!-- WEBSITE TITLE -->
+  <title>CODEcygen</title>
+
+  <!-- RESPONSIVE WEBSITE META TAG -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS FILES LINK -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/success.css">
+
+  <!-- GOOGLE FONTS LINK -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Nunito:wght@200&family=Tangerine&display=swap" rel="stylesheet">
+
+  <!-- FAVICON LINK -->
+  <link rel="icon" type="image/png" href="pictures/favicon/favicon.png" />
+
+  <!-- FONT AWESOME LINK -->
+  <script src="https://kit.fontawesome.com/159d9adc3c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- THIS SECTION IS NAVIGATION BAR THAT WILL BE STORED INSIDE "so_header.ejs" -->
+  <%- include('../partials/so_header.ejs') %>
+
+  <section class="landing" id="landing">
+
+    <div class="landing-left">
+      <h3>Let Us Help You</h3>
+      <h1 class="h1-landing h1-orange">Design</h1>
+      <h1 class="h1-landing h1-blue">Your Website</h1>
+      <p class="p-landing">Turn your concept, website to a working thing.</p>
+      <a href="#contact"><button class="my-btn" name="button">Start Now <i class="fas fa-laptop-code"></i></button></a>
+      <img src="pictures/cloud.png" alt="bottom-decoration-img">
+    </div>
+
+    <div class="landing-right">
+      <img src="pictures/cloud.png" alt="cloud-blob-img">
+      <img class="webdesign-img" src="pictures/webdesign.png" alt="webdesign-illust-img">
+    </div>
+
+  </section>
+
+  <hr>
+
+  <section class="services" id="services">
+    <div>
+      <i class="fas fa-heart"></i>
+      <h2>Unique Designs</h2>
+      <p>We design different websites by targeting the industry requirements of our clients.</p>
+    </div>
+
+    <div>
+      <i class="fas fa-bolt"></i>
+      <h2>Fast & Responsive</h2>
+      <p>We will design your website regarding the fast loading and different screen sizes. </p>
+    </div>
+
+    <div>
+      <i class="fas fa-user-friends"></i>
+      <h2>UX & UI Design</h2>
+      <p>Our designs will be appealing to you and your customers.</p>
+    </div>
+
+    <div>
+      <i class="fas fa-briefcase"></i>
+      <h2>Work Ethic</h2>
+      <p>Our well-planned road map, allows us to finish projects in time.</p>
+    </div>
+
+    <img class="torus1" src="pictures/torus.png" alt="torus-img">
+    <img class="torus2" src="pictures/torus.png" alt="torus-img">
+    <img class="torus3" src="pictures/torus.png" alt="torus-img">
+  </section>
+
+  <hr>
+
+  <section class="contact" id="contact">
+    <form class="" action="/" method="post">
+
+      <div>
+        <label>Full Name</label>
+        <input class="enter-name" type="text" name="fullName" placeholder="Full Name" required>
+      </div>
+
+      <div>
+        <label>Company</label>
+        <input class="enter-company" type="text" name="company" placeholder="Company (Optional)">
+      </div>
+
+      <div>
+        <label>Email</label>
+        <input class="enter-email" type="email" name="email" placeholder="Email" required>
+      </div>
+
+      <div>
+        <label>Phone</label>
+        <input class="enter-phone" type="tel" name="phone" placeholder="Phone" required>
+      </div>
+
+      <div class="">
+        <label>Message</label>
+        <textarea name="message" rows="8" cols="30" placeholder="Message (Optional)"></textarea>
+      </div>
+
+      <!-- value is the button name property -->
+      <button class="submit-btn" type="submit" name="submit-button">Submit</button>
+    </form>
+
+    <img class="splatter1" src="pictures/splatter.png" alt="splatter-img">
+    <img class="splatter2" src="pictures/splatter.png" alt="splatter-img">
+  </section>
+
+  <section class="footer" id="footer">
+    <p class="footer-message">We collaborate with ambitious people. Let's build something great together.</p>
+
+    <div>
+      <p class="attribution-link"><em>Illustration by <a href="https://storyset.com/">Freepik Storyset</a></em></p>
+      <p class="attribution-link"><em>Icons by <a href="https://fontawesome.com/">Font Awesome</a></em></p>
+    </div>
+
+    <p>Copyright 2021. All Rights Reserved.</p>
+  </section>
+
+  <script src="javascript/index.js"></script>
+
+</body>
+
+</html>
